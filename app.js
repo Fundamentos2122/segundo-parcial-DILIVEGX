@@ -17,6 +17,9 @@ const btn = document.getElementById("btns");
 document.addEventListener("DOMContentLoaded", function(){
 //localStorage.clear();
 paintRec();
+areaex.style.display = "none";
+    title.style.display = "none";
+    btn.style.display = "none";
 })
 
 
@@ -164,5 +167,13 @@ function getRecipe(id){
     }
 
     areaex.innerHTML=html;
+}
+
+function paintRecipeList(){
+    areag.style.display = "block";
+    title1.style.display = "block";
+    areaex.style.display = "none";
+    title.style.display = "none";
+    btn.style.display = "none";
 }
 

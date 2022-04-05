@@ -265,11 +265,13 @@ textarea {
     overflow: hidden;
     opacity: 1;
     transition: opacity ease-out 150ms;
+    max-width: fit-content;
 }
 
 .card > * + * {
     padding: 1rem;
 }
+
 
 .recipe-img { 
     display: flex;
